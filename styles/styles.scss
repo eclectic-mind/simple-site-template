@@ -52,6 +52,7 @@ a {
   }
 
   .main-menu & {
+    margin: 0 5px;
     color: $container-color;
   }
 }
@@ -150,7 +151,7 @@ main {
 
   @media screen and (max-width: $max-700) {
     font-size: 0.8em;
-    column-gap: 15px;
+    column-gap: 10px;
   }
 
   @media screen and (max-width: $max-500) {
@@ -328,10 +329,10 @@ footer {
   height: 24px;
   position: absolute;
   right: 40px;
-  display: block;
+  display: none;
 
-  @media screen and (min-width: $max-500) {
-    display: none;
+  @media screen and (max-width: $max-500) {
+    display: block;
   }
 
   span {

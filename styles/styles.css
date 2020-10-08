@@ -281,6 +281,7 @@ a:not(.logo):hover {
 }
 
 .main-menu a {
+  margin: 0 5px;
   color: #ffffff;
 }
 
@@ -410,8 +411,8 @@ main {
 @media screen and (max-width: 700px) {
   .main-menu {
     font-size: 0.8em;
-    -webkit-column-gap: 15px;
-            column-gap: 15px;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
   }
 }
 
@@ -622,12 +623,12 @@ footer {
   height: 24px;
   position: absolute;
   right: 40px;
-  display: block;
+  display: none;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .sandwitch {
-    display: none;
+    display: block;
   }
 }
 
